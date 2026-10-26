@@ -13,7 +13,8 @@ public class VirtualPet {
       int choice = 0;
       
       System.out.println("Welcome to Virtual Pet Simulator!");
-      String name = input.nextline();
+      System.out.println("Whats your pet's name?:");
+      String name = input.nextLine();
       System.out.println("Your pet's name is " + name);
 
       // TODO 1:
