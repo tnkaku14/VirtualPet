@@ -13,7 +13,8 @@ public class VirtualPet {
       int choice = 0;
       
       System.out.println("Welcome to Virtual Pet Simulator!");
-      System.out.println("Your pet's name is Meowser.");
+      String name = input.nextline();
+      System.out.println("Your pet's name is " + name);
 
       // TODO 1:
       // Create a while loop that continues while:
@@ -66,7 +67,7 @@ public class VirtualPet {
             happiness += 2;
             hunger += 1;
             energy -= 1;
-            System.out.println("Meowser is very lazy but he will play.");
+            System.out.println("Nice and clean!");
          }
          else if (choice == 5){
             System.out.println("Goodbye!");
